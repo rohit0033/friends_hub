@@ -34,7 +34,7 @@ const Navbar = ({ setUsers }) => {
 			  alignItems={"center"}
 			  justifyContent={"center"}
 			  gap={3}
-			  display={{ base: "none", sm: "flex" }}
+			  display="flex"
 			>
 			  <Text fontSize={"20px"}>
 				Give Feedback on AI application:-  
